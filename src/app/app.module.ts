@@ -10,6 +10,7 @@ import { GradeTrackerParentComponent } from './grade-tracker-parent/grade-tracke
 @NgModule({
   declarations: [
     AppComponent,
+    PageHeaderComponent,
     GradeTrackerParentComponent
   ],
   imports: [

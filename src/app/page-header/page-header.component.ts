@@ -8,12 +8,14 @@ import { Component } from '@angular/core';
 
 export class PageHeaderComponent {
 
+  public pageTitle: string;
+
   public constructor() {
 
   }
 
   ngOnInit() {
-
+    this.pageTitle = 'Grade Tracker';
   }
 
 }
